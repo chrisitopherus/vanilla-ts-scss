@@ -1,11 +1,12 @@
 {
-  "name": "vanilla-ts",
+  "name": "vanilla-ts-scss",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "build": "tsc",
-    "dev": "tsc --watch --inlineSourceMap"
+    "build": "tsc&&sass src/scss:./public/css",
+    "dev:ts": "tsc --watch --inlineSourceMap",
+    "dev:scss": "sass src/scss:./public/css --watch"
   },
   "repository": {
     "type": "git",
@@ -13,9 +14,13 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/chrisitopherus/vanilla-ts/issues"
   },
-  "homepage": "https://github.com/chrisitopherus/vanilla-ts#readme"
+  "homepage": "https://github.com/chrisitopherus/vanilla-ts#readme",
+  "devDependencies": {
+    "sass": "^1.54.9",
+    "typescript": "^4.8.3"
+  }
 }
