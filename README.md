@@ -13,7 +13,8 @@ npm i
 npm install
 
 # Start developing
-npm run dev
+npm run dev:ts
+npm run dev:scss
 
 # build
 npm run build
