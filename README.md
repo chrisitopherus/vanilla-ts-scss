@@ -9,7 +9,8 @@ git clone https://github.com/chrisitopherus/vanilla-ts.git <your-project-name>
 cd <your-project-name>
 
 # install all dependencies.
-$ npm i
+npm i
+npm install
 
 # Start developing
 npm run dev
