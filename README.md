@@ -1,9 +1,9 @@
-# vanilla-ts
+# vanilla-ts-scss
 
 ## Get Started
 
 ```zsh
-git clone https://github.com/chrisitopherus/vanilla-ts.git <your-project-name>
+git clone https://github.com/chrisitopherus/vanilla-ts-scss.git <your-project-name>
 
 # change directory to your project
 cd <your-project-name>
