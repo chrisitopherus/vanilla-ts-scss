@@ -6,7 +6,7 @@
   "scripts": {
     "build": "npm run clean&&tsc&&sass -s compressed --no-source-map --stop-on-error src/scss/main.scss:public/css/bundle.css",
     "dev:ts": "tsc --watch --inlineSourceMap",
-    "dev:scss": "npm run clean&&sass --watch --stop-on-error src/scss:public/css",
+    "dev:scss": "npm run clean&&sass --watch src/scss:public/css",
     "clean": "shx rm -rf public/css"
   },
   "repository": {
